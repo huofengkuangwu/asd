@@ -41,4 +41,4 @@ CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8#
 石家庄综合,http://pluslive1.sjzntv.cn/xmzh/playlist.m3u8?zhebd
 石家庄生活,http://pluslive1.sjzntv.cn/shenghuo/playlist.m3u8?zhebd
 石家庄都市,http://pluslive1.sjzntv.cn/dushi/playlist.m3u8?zhebd
-电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+热播精选,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
