@@ -95,20 +95,6 @@ http://120.211.119.222:8899/hls/47/index.m3u8
 http://120.211.119.222:8899/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="河北",卡酷少儿
 http://120.211.119.222:8899/hls/46/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通.png" group-title="河北",金鹰卡通
-http://120.211.119.222:8899/hls/50/index.m3u8
-#EXTINF:-1 tvg-name="中国教育" tvg-logo="https://live.fanmingming.com/tv/中国教育.png" group-title="河北",中国教育
-http://120.211.119.222:8899/hls/52/index.m3u8
-#EXTINF:-1 tvg-name="纪实频道" tvg-logo="https://live.fanmingming.com/tv/纪实频道.png" group-title="河北",纪实频道
-http://120.211.119.222:8899/hls/53/index.m3u8
-#EXTINF:-1 tvg-name="老故事" tvg-logo="https://live.fanmingming.com/tv/老故事.png" group-title="河北",老故事
-http://120.211.119.222:8899/hls/54/index.m3u8
-#EXTINF:-1 tvg-name="足球频道" tvg-logo="https://live.fanmingming.com/tv/足球频道.png" group-title="河北",足球频道
-http://120.211.119.222:8899/hls/55/index.m3u8
-#EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/怀旧剧场.png" group-title="河北",怀旧剧场
-http://120.211.119.222:8899/hls/56/index.m3u8
-#EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="河北",风云剧场
-http://120.211.119.222:8899/hls/57/index.m3u8
 #EXTINF:-1 tvg-name="河北经济" tvg-logo="https://live.fanmingming.com/tv/河北经济.png" group-title="河北",河北经济
 http://120.211.119.222:8899/hls/58/index.m3u8
 #EXTINF:-1 tvg-name="河北都市" tvg-logo="https://live.fanmingming.com/tv/河北都市.png" group-title="河北",河北都市
