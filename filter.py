@@ -31,7 +31,7 @@ def filter_m3u():
                     output.append(line)
                     output.append(next_line)
         
-        with open("mobile_plus.m3u", "w", encoding="utf-8") as f:
+        with open("hbyd.m3u", "w", encoding="utf-8") as f:
             f.write("\n".join(output))
         print("筛选完成！")
     except Exception as e:
