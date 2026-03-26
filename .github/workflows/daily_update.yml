@@ -1,0 +1,32 @@
+name: Daily Update Live List
+
+于:
+  schedule:
+    - cron: '0 23 * * *' # 每天北京时间早上 6 点运行 (UTC 22:00)
+  workflow_dispatch:      # 允许手动点击运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run filter script
+        run: python filter.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add mobile_plus.m3u
+          git commit -m "Update live list $(date)" || exit 0
+          git push
