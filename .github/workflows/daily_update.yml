@@ -1,6 +1,5 @@
 name: Daily Update Live List
 
-于:
   schedule:
     - cron: '0 23 * * *' # 每天北京时间早上 6 点运行 (UTC 22:00)
   workflow_dispatch:      # 允许手动点击运行
