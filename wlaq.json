@@ -1,10 +1,19 @@
-{
-  "sites": [
+{"cache_time":7200,"api_site": [
     {
       "key": "wolong",
-      "name": "卧龙资源",
-      "type": 1, 
+      "name": "卧龙",
+      "type": 0, 
       "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+    },
+    {
+      "key": "jinying",
+      "name": "金鹰",
+      "type": 0, 
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -13,7 +22,7 @@
     {
       "key": "iqiyi",
       "name": "爱奇艺",
-      "type": 2, 
+      "type": 0, 
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
