@@ -1,24 +1,29 @@
 name: Update Pure Source
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch: 
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# 核心：显式声明权限
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # 升级到 v4
+        uses: actions/checkout@v4
         
       - name: Set up Python
-        uses: actions/setup-python@v5 # 升级到 v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           
       - name: Run Clean Script
         run: |
           pip install requests
+          # 运行脚本并显示详细报错
           python clean.py
           
       - name: Commit and Push
@@ -26,5 +31,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add pure_source.json
-          git commit -m "Update pure source" || exit 0
-          git push
+          # 如果文件没变化，git commit 会报错，用 || true 忽略它
+          git commit -m "Update pure source" || true
+          git push origin main
