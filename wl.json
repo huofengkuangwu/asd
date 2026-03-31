@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "key": "wolong",
+      "name": "卧龙资源",
+      "type": 1, 
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+    }
+  ]
+}
