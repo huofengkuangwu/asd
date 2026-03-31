@@ -14,7 +14,7 @@
       "key": "jinying",
       "name": "金鹰",
       "type": 0, 
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+      "api": "https://jinyingzy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
