@@ -10,14 +10,14 @@ def clean_json():
         data = response.json()
         
         # 2. 定义白名单分类（只留这些，其他的全删掉）
-        white_list = ["动作片", "国产剧"，"纪录片"]
+        white_list = ["动作片"，"喜剧片","纪录片"]
         
         if "sites" in data:
             for site in data["sites"]:
                 # 针对爱奇艺那个源进行处理
                 if "爱奇艺" in site.get("name", ""):
                     # 关键：添加 categories 过滤
-                    site["categories"] = "动作片#国产剧#纪录片"
+                    site["categories"] = "动作片#喜剧片#纪录片"
                     # 强制关闭该源的搜索，防止搜到不该看的
                     site["searchable"] = 0
                     site["quickSearch"] = 0
