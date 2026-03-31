@@ -2,7 +2,7 @@ import requests
 import json
 
 # 1. 原始爱奇艺接口地址 (换成你现在用的那个)
-raw_url = "https://你的原始接口地址.json"
+raw_url = "https://hltv.cc.cd/api/tvbox/config?format=json&mode=fast"
 
 def clean_json():
     try:
