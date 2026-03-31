@@ -1,20 +1,20 @@
 name: Update Pure Source
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天凌晨自动更新
-  workflow_dispatch: # 支持手动点运行
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升级到 v4
         
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # 升级到 v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
           
       - name: Run Clean Script
         run: |
