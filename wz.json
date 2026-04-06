@@ -35,8 +35,7 @@
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+      "filterable": 1
     },
     {
       "key": "feifan",
@@ -45,8 +44,7 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+      "filterable": 1
     },
     {
       "key": "modu",
@@ -55,8 +53,7 @@
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+      "filterable": 1
     },
     {
             "key": "无水印资源",
@@ -65,8 +62,7 @@
             "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "欧美剧", "韩剧", "日剧", "动漫", "综艺"]
+            "filterable": 1
     }
   ]
 }
