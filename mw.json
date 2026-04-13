@@ -63,7 +63,7 @@
         "z5.cnzz.com",
         "xc.hubeijieshikj.cn",
         "xc.hubeijiesikj.cn",
-        "tj.tianwenhu.com"，
+        "tj.tianwenhu.com",
         "xg.gars57.cn",
         "so.toutiao.com",
         "k.jinxiuzhilv.com",
@@ -88,8 +88,8 @@
         "f5w.as12df.top",
         "ae01.alicdn.com",
         "www.92424.cn",
-        "try.gitea.io"，
-        "k.wudejia.com"，
+        "try.gitea.io",
+        "k.wudejia.com",
         "videocloud.cn-hangzhou.log.aliyuncs.com",
         "www.118866.com",
         "vivovip.mmszxc.top",
@@ -243,7 +243,7 @@
                     "category": 4,
                     "name": "mediacodec-hevc",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 1,
                     "name": "analyzeduration",
@@ -293,7 +293,7 @@
                     "category": 4,
                     "name": "framedrop",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "soundtouch",
