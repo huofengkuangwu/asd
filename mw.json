@@ -63,7 +63,7 @@
         "z5.cnzz.com",
         "xc.hubeijieshikj.cn",
         "xc.hubeijiesikj.cn",
-        "tj.tianwenhu.com",
+        "tj.tianwenhu.com"，
         "xg.gars57.cn",
         "so.toutiao.com",
         "k.jinxiuzhilv.com",
@@ -88,8 +88,8 @@
         "f5w.as12df.top",
         "ae01.alicdn.com",
         "www.92424.cn",
-        "try.gitea.io",
-        "k.wudejia.com",
+        "try.gitea.io"，
+        "k.wudejia.com"，
         "videocloud.cn-hangzhou.log.aliyuncs.com",
         "www.118866.com",
         "vivovip.mmszxc.top",
@@ -243,7 +243,7 @@
                     "category": 4,
                     "name": "mediacodec-hevc",
                     "value": "1"
-                },
+                }，
                 {
                     "category": 1,
                     "name": "analyzeduration",
@@ -293,7 +293,7 @@
                     "category": 4,
                     "name": "framedrop",
                     "value": "1"
-                },
+                }，
                 {
                     "category": 4,
                     "name": "soundtouch",
@@ -388,24 +388,12 @@
         }
     ],
     "lives": [
-        {
-            "channels": [
-                {
-                    "name": "CCTV-1",
-                    "urls": [
-                        "http://221.194.141.41:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226346/1.m3u8"]
-                },
-                {
-                    "name": "CCTV-2",
-                    "urls": [
-                        "http://221.194.141.41:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8"]
-                }
-                
-               
-                
-            ],
-            "group": "📺央视频道"
-        }
+    {
+        "group": "远程直播源",
+        "type": 0,
+        "url": "https://cdn.jsdelivr.net/gh/huofengkuangwu/asd@main/lflt.txt", // 这里换成你的订阅地址
+        "playerType": 1
+    }
     ],
     "parseAds": [
         "0866a0a33e897c6b69d927db8a341e1d",
