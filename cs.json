@@ -1,0 +1,75 @@
+{
+  // 默认 spider 设置为第一个（饭太硬源）,因为它的站点较多
+  "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b",
+  "wallpaper": "https://imgs.catvod.com",
+  "logo": "https://tvbox.catvod.com/logo.png",
+
+  "sites": [
+    // --- 以下保留第一个接口的第三方播放站点 (自动使用顶部的默认 spider) ---
+    {"key":"立播","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","timeout":10,"searchable": 1,"quickSearch": 1,"changeable":1},
+    {"key":"厂长","name":"📔厂长┃秒播","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"原创","name":"☀原创┃秒播","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"比特","name":"🍄比特┃秒播","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
+    {"key":"奥特","name":"🏝奥特┃多线","type": 3,"api":"csp_AueteGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
+
+    // --- 以下保留第二个接口的官方解析/聚合站点 (通过 jar 字段强行指定第二个 JAR) ---
+    {
+      "key": "豆瓣",
+      "name": "豆瓣┃官方推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "jar": "https://tvbox.catvod.com/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇艺┃官方解析",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/aqy.js"
+    },
+    {
+      "key": "腾讯",
+      "name": "腾讯┃官方解析",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/tx.js"
+    },
+    {
+      "key": "优酷",
+      "name": "优酷┃官方解析",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/yk.js"
+    },
+    {
+      "key": "聚合直播",
+      "name": "聚合直播┃Cat",
+      "type": 3,
+      "api": "csp_Living",
+      "jar": "https://tvbox.catvod.com/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+      "searchable": 1,
+      "quickSearch": 1
+    }
+  ],
+
+  // 保留第二个接口的解析服务器
+  "parses": [  
+    {"name": "VIP1", "type": 0, "url": "https://jx.xmflv.com/?url="},
+    {"name": "VIP2", "type": 0, "url": "https://t1.qlplayer.cyou/player/?url="},
+    {"name": "VIP3", "type": 0, "url": "https://jx.m3u8.tv/jx/jx.php?url="}
+  ],
+
+  "lives": [     
+    {
+      "name": "CatVod直播",
+      "type": 0,
+      "url": "https://iptv.catvod.com/tv.m3u"
+    }
+  ]
+}
