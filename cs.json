@@ -1,7 +1,6 @@
 {
   // 默认 spider 设置为第一个（饭太硬源）,因为它的站点较多
-  "spider": "https://oss4liview.moji.com/thd_file/2026/04/15/054d708d394aeb603982f1806f9e7653.jpg;md5;66c8320a11411420db914bba8b77e34b",
-  "wallpaper": "https://imgs.catvod.com",
+    "wallpaper": "https://imgs.catvod.com",
   "logo": "https://tvbox.catvod.com/logo.png",
 "ads": [
         "mimg.0c1q0l.cn",
@@ -502,7 +501,6 @@
       "name": "豆瓣┃官方推荐",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "https://tvbox.catvod.com/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
       "searchable": 1,
       "quickSearch": 1
     },
