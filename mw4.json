@@ -26,22 +26,6 @@
     ".*ulivetv.*",
     "http://itvba.xyz/tv/jar/fty1020.jar"
 ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu",
-        "bilibili",
-        "wjyun",
-        "lajiao",
-        "kbzy"
-    ],
     "ijk": [
         {
             "group": "硬解码",
@@ -269,77 +253,6 @@
             ]
         }
     ],
-    "parseAds": [
-    "111.m3u8",
-    "aiku.m3u8",
-    "feiyun.m3u8",
-    "xiaoxin.m3u8",
-    "xyfd.m3u8",
-    "fd.m3u8",
-    "fd2.m3u8",
-    "yyyyy.mp4",
-    "xiaohai.mp4",
-    "milai.mp4",
-    "cache.json.icu",
-    "yuncache",
-    "https://api.nxflv.com/Cache/M3u8/",
-    "fangdao",
-    "daoqitixing.m3u8",
-    "0866a0a33e897c6b69d927db8a341e1d",
-    "2420fc61fb66a16ae22f08cecbd2ff43"
-],
-    "parses": [
-        {
-            "name": "Json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
-        {
-            "name": "Json并发",
-            "type": 2,
-            "url": "Parallel"
-        },
-        {
-            "name": "解析1.1",
-            "type": 1,
-            "url": "https://jx.xmflv.com/?url="
-        },
-        {
-            "name": "解析1.2",
-            "type": 1,
-            "url": "https://jx.m3u8.tv/jx/jx.php?url="
-        },
-        {
-            "name": "解析1.3",
-            "type": 1,
-            "url": "https://yparse.ik9.cc/index.php?url="
-        },
-        {
-            "name": "解析1.4",
-            "type": 1,
-            "url": "https://www.8090g.cn/jiexi/?url="
-        },
-        {
-            "name": "解析1.5",
-            "type": 1,
-            "url": "https://jx.2s0.cn/player/?url="
-        },
-        {
-            "name": "解析1.6",
-            "type": 1,
-            "url": "http://cx99999.cn/rxjson.php?url="
-        },
-        {
-            "name": "解析1.7",
-            "type": 1,
-            "url": "http://wsyzy.top/m3u8/?url="
-        },
-        {
-            "name": "解析1.8",
-            "type": 1,
-            "url": "https://www.iqiyizyjx.com/?url="
-        }
-    ],
     "sites":[
         {
       "key": "无水印资源",
@@ -361,48 +274,7 @@
       "filterable": 1,
       "categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影","动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片","惊悚片","家庭片","古装片","历史片", "悬疑片","犯罪片","灾难片","记录片","短片","国产剧", "香港剧","韩剧","欧美剧", "日本剧","大陆综艺","港台综艺","短剧","动漫"]
     },
-    {
-      "key": "爱奇艺1",
-      "name": "爱奇艺1",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "jar": "https://tvbox.catvod.com/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
-      "ext": "https://tvbox.catvod.com/js/aqy.js"
-    },
-    {
-      "key": "优酷",
-      "name": "优酷",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/yk.js"
-    },
-    {
-      "key": "腾讯",
-      "name": "腾讯",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/tx.js"
-    },
-    {
-      "key": "搜狗",
-      "name": "搜狗",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/sg.js"
-    },
-    {
-      "key": "MGTV",
-      "name": "MGTV",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/mgtv.js"
-    },
-        {
+      {
       "key": "feifan",
       "name": "非凡",
       "type": 1, 
@@ -453,13 +325,12 @@
      "categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","纪录片","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","动画片","港台动漫","海外动漫","4K电影","反转爽剧","古装仙侠","年代穿越","脑洞悬疑","现代都市","邵氏电影","Netflix电影","Netflix自制剧","科普学习","漫剧","儿童儿歌"]
     }
   ], 
-  "hosts": [
-    "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-    "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
-  ],  
+  "lives": [     
+    {
+      "name": "CatVod直播",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/huofengkuangwu/asd@main/lflt.txt"
+    },
    "wallpapers": [
         "https://bing.img.run/rand.php",
         "https://api.lyiqk.cn/scenery",
