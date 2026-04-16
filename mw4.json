@@ -330,7 +330,8 @@
       "name": "CatVod直播",
       "type": 0,
       "url": "https://cdn.jsdelivr.net/gh/huofengkuangwu/asd@main/lflt.txt"
-    },
+    }
+    ],
    "wallpapers": [
         "https://bing.img.run/rand.php",
         "https://api.lyiqk.cn/scenery",
