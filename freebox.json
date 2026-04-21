@@ -1,7 +1,15 @@
 {
   "spider": "../jar/spider.jar;md5;b3f23c52278b42b7ea0cc259f3f6f1c5",
   "sites": [
-        {
+    {
+      "key": "Intruduce",
+      "name": "验证设置",
+      "type": 3,
+      "api": "csp_Introduce",
+      "searchable": 0,
+      "changeable": 0
+    }，        
+    {
       "key": "无水印资源",
       "name": "无水印",
       "type": 1,
