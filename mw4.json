@@ -43,43 +43,6 @@
     ".ts?ad=",
     "m3u8?pt=m3u8&"
   ],
-  "rules": [
-    {
-      "name": "yq",
-      "hosts": ["yq.bilibilijj.top", "yq.com"],
-      "regex": ["18.4", "15.1666", "16.5333", "15.2666"]
-    },
-    {
-      "name": "pdd",
-      "hosts": ["pdd.m3u8", "pdd.ts", "pdd"],
-      "regex": ["15.0", "15.00", "15.000", "15.0000", "15.00000"]
-    },
-    {
-      "name": "sn",
-      "hosts": ["suonizy"],
-      "regex": ["#EXTINF.*?\\s+.*?original.*?\\.ts\\s+", "15.1666", "15.2666", "15.0"]
-    },
-    {
-      "name": "zjmiao",
-      "hosts": ["zjmiao.com"],
-      "regex": ["#EXT-X-DISCONTINUITY[\\s\\S]*?#EXT-X-KEY"]
-    },
-    {
-      "name": "bfq",
-      "hosts": ["bfq"],
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3\\.[0-9]+,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
-    },
-    {
-      "name": "海外环境广告",
-      "hosts": ["p.p6p.cc", "cdn.p6p.cc", "c.p6p.cc"],
-      "regex": ["15.15", "11.11", "20.20", "10.10"]
-    },
-    {
-      "name": "量子/非凡/索尼广告段",
-      "hosts": ["vip.lz", "hd.lz", "v.cdnlz", "suonizy", "ffzy"],
-      "regex": ["18.5333", "19.52", "18.6666", "18.4", "15.1666", "20.5333", "20.4", "19.6", "15.2666", "17.3333"]
-    }
-  ],
     "ijk": [
         {
             "group": "硬解码",
