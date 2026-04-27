@@ -569,7 +569,7 @@
         {
             "name": "解析1.4",
             "type": 1,
-            "url": " https://jx.wolongm3u8.com:65/m3u8.php?url="
+            "url": "https://jx.wolongm3u8.com:65/m3u8.php?url="
         },
         {
             "name": "解析1.5",
@@ -584,7 +584,7 @@
         {
             "name": "解析1.7",
             "type": 1,
-            "url": "https://www.modujiexi66.com/?url"
+            "url": "https://www.modujiexi66.com/?url="
         },
         {
             "name": "解析1.3",
@@ -958,17 +958,9 @@
             "type": 1
         },
         {
-            "api": "https://api.yparse.com/api/xml",
-            "key": "45f33b701d9ec5f355ffb35e51e2a37d",
-            "name": "54-步步高资源*",
-            "quickSearch": 0,
-            "searchable": 0,
-            "type": 0
-        },
-        {
-            "api": "https://ikunzyapi.com/api.php/provide/vod/",
+            "api": "https://ikunzyapi.com/api.php/provide/vod",
             "key": "1857b57162cc2b5f25c019cb06c14353",
-            "name": "55-ikun*",
+            "name": "ikun*",
             "quickSearch": 0,
             "searchable": 0,
             "type": 1
@@ -983,13 +975,6 @@
             "api": "https://www.wyvod.com/api.php/provide/vod/",
             "key": "130ff3134aa51648a8a5575b98b5d268",
             "name": "57-无忧",
-            "type": 1
-        },
-        {
-            "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
-            "key": "3d23da393a65774f2800c6732c55c7ce",
-            "name": "60-快鹰",
-            "playUrl": "https://stray.serv00.net/ky.php?url=",
             "type": 1
         },
         {
@@ -1015,20 +1000,6 @@
             "type": 1
         },
         {
-            "api": "https://iqiyizyapi.com/api.php/provide/vod/",
-            "key": "acd47931ed9a83e500f70bbb7c5c0c2b",
-            "name": "64-奇艺",
-            "type": 1
-        },
-        {
-            "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-            "key": "77791ef659e8282af587e24e7b0c18a5",
-            "name": "65-墨斗*",
-            "quickSearch": 0,
-            "searchable": 0,
-            "type": 1
-        },
-        {
             "api": "https://zuidazy.me/api.php/provide/vod/",
             "key": "6e31126e4b7e6db33dcde3d30e309463",
             "name": "66-最大",
@@ -1051,14 +1022,6 @@
             "type": 1
         },
         {
-            "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-            "key": "1a05b72ecc4cb6326f046a5585f3432b",
-            "name": "69-卧龙*",
-            "quickSearch": 0,
-            "searchable": 0,
-            "type": 1
-        },
-        {
             "api": "https://api.wujinapi.net/api.php/provide/vod/",
             "key": "16cfe5fb43282cd0609786037845f50b",
             "name": "70-无尽*",
@@ -1067,11 +1030,11 @@
             "type": 1
         },
         {
-            "api": "https://olevod1.com/api.php/provide/vod/",
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
             "key": "6953e425bf9a6128c21d685173dcbd75",
-            "name": "71-ole*",
-            "quickSearch": 0,
-            "searchable": 0,
+            "name": "茅台*",
+            "quickSearch": 1,
+            "searchable": 1,
             "type": 1
         },
         {
@@ -1115,12 +1078,6 @@
             "type": 1
         },
         {
-            "api": "https://ty.tyyszy5.com/api.php/provide/vod/",
-            "key": "cc8221d0e6ce9ce89d28e502caeb555d",
-            "name": "77-天涯",
-            "type": 1
-        },
-        {
             "api": "http://rise.eu.org/api.php/provide/vod/",
             "key": "b954276569fe5d54ca57cf5cd6358465",
             "name": "78-飞马*",
@@ -1152,20 +1109,6 @@
             "api": "https://yayazy2.com/api.php/provide/vod/",
             "key": "a7309ad5614fb7c13fa6d3e49639f8be",
             "name": "82-丫丫",
-            "type": 1
-        },
-        {
-            "api": "https://xml.heimuer.tv/api.php/provide/vod/",
-            "key": "7f3e7fd1536a4bd6bfd5129cd7981344",
-            "name": "83-木耳*",
-            "quickSearch": 0,
-            "searchable": 0,
-            "type": 1
-        },
-        {
-            "api": "https://xsd.sdzyapi.com/api.php/provide/vod/",
-            "key": "b9b8345a1d11cc2cd5a80e63b4e149d0",
-            "name": "84-闪电",
             "type": 1
         },
         {
